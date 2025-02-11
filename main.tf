@@ -31,5 +31,5 @@ resource "azurerm_storage_blob" "example" {
   storage_account_name   = local.storage_account_name
   storage_container_name = local.container_name
   type                   = "Block"
-  source = "./terraform.zip"
+  source                 = "./terraform.zip"
 }
